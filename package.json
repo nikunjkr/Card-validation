@@ -4,10 +4,13 @@
   "description": "",
   "main": "valid.js",
   "scripts": {
-    "dev" : "node card_validator",
+    "dev": "node card_validator",
     "test": "node valid"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "coveralls": "^3.1.0"
+  }
 }
