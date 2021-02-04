@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "node card_validator",
     "test": "node valid",
-    "coverage": "nyc report --reporter=text-lcov | coveralls && nyc report --reporter=lcov",
-    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
+    
+    "coveralls": "npm run coveralls"
   },
   "keywords": [],
   "author": "",
