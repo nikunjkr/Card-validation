@@ -5,7 +5,8 @@
   "main": "valid.js",
   "scripts": {
     "dev": "node card_validator",
-    "test": "node valid"
+    "test": "node valid",
+    "coverage": "npm run pretest && jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "keywords": [],
   "author": "",
