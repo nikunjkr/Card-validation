@@ -7,7 +7,7 @@
     "dev": "node card_validator",
     "test": "node valid",
     
-    "coveralls": "npm run coveralls"
+     "coverage": "npm run pretest && jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "keywords": [],
   "author": "",
