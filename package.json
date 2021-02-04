@@ -4,6 +4,7 @@
   "description": "",
   "main": "valid.js",
   "scripts": {
+    "dev" : "node card_validator",
     "test": "node valid"
   },
   "keywords": [],
